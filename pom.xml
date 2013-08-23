@@ -66,4 +66,11 @@
 		</repository>
 	</repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>sdu-maven-repo</id>
+            <name>Sdu Maven Repository</name>
+            <url>http://srv009bh.sdu.nl/nexus/content/repositories/sdu/</url>
+        </repository>
+    </distributionManagement>
 </project>
